@@ -17,5 +17,5 @@ jobs:
         with:
           go-version: '1.22'
 
-      - name: Successfully
-        run: (exit 0)
+      - name: Run test
+        run: go test ./...
